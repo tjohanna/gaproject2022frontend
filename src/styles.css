@@ -1,0 +1,68 @@
+/* Nav Compnent Styling  */
+
+header {
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+header nav a {
+  color:black;
+  text-decoration: none;
+
+}
+
+header nav div {
+  font-size: larger;
+  background-color: rgb(124, 124, 230);
+  color: white;
+  width: 200px;
+  border-radius: 7px;
+  transition: background-color .2s, color .2s;
+  padding: 10px;
+}
+
+header nav div:hover {
+  background-color: purple;
+  color: burlywood;
+
+
+}
+
+/* Auth component  */
+
+.auth form {
+  padding: 50px;
+}
+
+
+.auth form input .form form input, button {
+  /* background-color: rgb(212, 211, 211); */
+  background-color: rgb(185, 185, 231);
+  color: black;
+  padding: 8px;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* Dashboard */
+
+.dashboard {
+  text-align: center; 
+
+}
+
+.dashboard .goal {
+  text-align: center;
+  width: 90%;
+  margin: 10px auto;
+  border: 3px solid black;
+}
+
