@@ -5,7 +5,7 @@ import React, {useContext, useReducer} from "react";
 ////////////////////
 
 const initialState = {
-    url: "http://goals2022project.herokuapp.com",
+    url: "https://goals2022project.herokuapp.com",
     token: null,
     username: null,
     goals: null,
